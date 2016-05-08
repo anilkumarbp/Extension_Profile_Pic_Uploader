@@ -14,8 +14,6 @@ var RC = require('ringcentral');
 var helpers = require('ringcentral-helpers');
 var http = require('http');
 var path = require('path');
-var filepath = require('filepath');
-
 
 // VARS
 var _extensions=[];
