@@ -1,0 +1,33 @@
+{
+  "name": "profilepicuploader",
+  "version": "1.0.0",
+  "description": "Demo to upload profile pics to an extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilkumarbp/Extension_Profile_Pic_Uploader.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec"
+  },
+  "author": "anil.kumar@ringcentral.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilkumarbp/Extension_Profile_Pic_Uploader/issues"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "ringcentral": "^2.0.4",
+    "ringcentral-helpers": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "homepage": "https://github.com/anilkumarbp/Extension_Profile_Pic_Uploader#readme"
+}
